@@ -53,6 +53,7 @@ def start_timer():
 
 
 def count_down(count):
+    '''Function to start the count down of the pomodoro timer...'''
     global timer
     count_min = math.floor(count/60)
     count_sec = count % 60
