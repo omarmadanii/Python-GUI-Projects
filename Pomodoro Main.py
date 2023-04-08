@@ -28,6 +28,7 @@ def reset_timer():
 
 
 def start_timer():
+    '''Function to start the timer and manage the number of reps completed and switch between breaks and work...'''
     global reps
     reps += 1
 
